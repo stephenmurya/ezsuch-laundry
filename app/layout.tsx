@@ -9,29 +9,29 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Clean Looks Drycleaners | Spotless Results, Every Time",
+  title: "EZSUCH LAUNDRY | Precision Cleaning, Every Garment Counts",
   description:
-    "Professional laundry and dry cleaning in Ikeja, Lagos. Clean Looks Drycleaners offers expert dry cleaning, wash and fold, pressing, shirt specials, delicate fabric care, and duvet cleaning.",
+    "EZSUCH LAUNDRY & DRY CLEANING SERVICES offers reliable dry cleaning, washing, pressing, shirt care, fabric care, and household item cleaning in Ijaiye-Ojokoro, Lagos.",
   keywords: [
-    "dry cleaners Ikeja",
-    "laundry service Ikeja Lagos",
-    "Allen Avenue dry cleaning",
-    "shirt ironing Ikeja",
-    "duvet cleaning Lagos",
+    "laundry service Ijaiye",
+    "dry cleaning Ijaiye-Ojokoro",
+    "laundry Lagos",
+    "shirt ironing Lagos",
+    "EZSUCH LAUNDRY",
   ],
-  applicationName: "Clean Looks Drycleaners",
+  applicationName: "EZSUCH LAUNDRY",
   openGraph: {
-    title: "Clean Looks Drycleaners",
+    title: "EZSUCH LAUNDRY",
     description:
-      "Fresh, crisp, professional cleaning in the heart of Ikeja, Lagos.",
+      "Crisp, clean, reliable laundry and dry cleaning service in Ijaiye-Ojokoro, Lagos.",
     type: "website",
-    siteName: "Clean Looks Drycleaners",
+    siteName: "EZSUCH LAUNDRY",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Clean Looks Drycleaners",
+    title: "EZSUCH LAUNDRY",
     description:
-      "Spotless Results, Every Time. Trusted laundry and dry cleaning in Ikeja, Lagos.",
+      "Precision Cleaning, Every Garment Counts. Trusted laundry and dry cleaning in Ijaiye-Ojokoro, Lagos.",
   },
 };
 
@@ -50,4 +50,3 @@ export default function RootLayout({
     </html>
   );
 }
-

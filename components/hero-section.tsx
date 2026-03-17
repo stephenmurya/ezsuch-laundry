@@ -14,7 +14,7 @@ export function HeroSection() {
       <div className="container-shell grid gap-12 py-14 sm:py-16 lg:grid-cols-[1.05fr_0.95fr] lg:items-center lg:gap-14 lg:py-24">
         <div>
           <span className="inline-flex items-center rounded-full border border-brand-100 bg-brand-50 px-3 py-1 text-xs font-semibold uppercase tracking-[0.2em] text-brand-700">
-            Trusted Fabric Care In Ikeja
+            Trusted laundry and dry cleaning in Ijaiye-Ojokoro
           </span>
           <h1
             id="hero-heading"
@@ -24,13 +24,23 @@ export function HeroSection() {
           </h1>
           <p className="mt-4 max-w-2xl text-pretty text-lg leading-8 text-slate-600 sm:text-xl">
             {company.tagline}. Professional laundry and dry cleaning for busy
-            households and working professionals who want fresh, crisp, reliable
-            results close to Allen Avenue.
+            households and working professionals who want crisp pressing,
+            careful handling, and reliable service close to home in Ijaiye.
           </p>
 
           <div className="mt-8">
             <CtaButtons />
           </div>
+
+          <p className="mt-4 text-sm leading-6 text-slate-600">
+            Prefer to call directly?{" "}
+            <a
+              href={company.phoneHref}
+              className="font-semibold text-slate-900 hover:text-brand-600"
+            >
+              {company.phoneDisplay}
+            </a>
+          </p>
 
           <div className="mt-8 grid gap-4 sm:grid-cols-2">
             <div className="card-surface rounded-2xl p-4">
@@ -65,7 +75,7 @@ export function HeroSection() {
                   <p className="mt-1 text-sm leading-6 text-slate-600">
                     8:00 AM - 6:00 PM
                     <br />
-                    Quick turnaround available.
+                    Mon - Sat with quick service available.
                   </p>
                 </div>
               </div>
@@ -93,7 +103,7 @@ export function HeroSection() {
             <div className="relative aspect-[4/5]">
               <Image
                 src={galleryImages.hero}
-                alt="Freshly pressed white shirts arranged neatly on hangers."
+                alt="Freshly pressed shirts arranged neatly on hangers."
                 fill
                 priority
                 className="object-cover"
@@ -108,12 +118,12 @@ export function HeroSection() {
                 />
                 <div>
                   <p className="text-base font-semibold text-slate-950">
-                    Fresh, crisp, professional cleaning
+                    Crisp, clean, reliable garment care
                   </p>
                   <p className="mt-2 text-sm leading-6 text-slate-600">
-                    From everyday laundry to office shirts and occasion wear, we
-                    help your garments look their best for work, worship, and
-                    special moments.
+                    From everyday laundry to office shirts, suits, and special
+                    garments, we help every item return clean, neat, and ready
+                    to wear.
                   </p>
                 </div>
               </div>

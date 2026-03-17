@@ -13,8 +13,8 @@ export function WhyChooseUsSection() {
         <div className="grid gap-10 lg:grid-cols-[0.85fr_1.15fr] lg:items-start">
           <SectionHeading
             eyebrow="Why Choose Us"
-            title="A dependable neighborhood dry cleaner that treats your wardrobe with care."
-            description="We focus on the details that matter most: clean finishing, respectful fabric handling, fair pricing, and the convenience of a trusted location in the heart of Ikeja."
+            title="A dependable neighborhood laundry service that treats your wardrobe with care."
+            description="We focus on the details that matter most: clean finishing, respectful fabric handling, fair pricing, and the convenience of a trusted local location in Ijaiye-Ojokoro."
           />
 
           <div className="grid gap-5 sm:grid-cols-2">
@@ -47,4 +47,3 @@ export function WhyChooseUsSection() {
     </section>
   );
 }
-

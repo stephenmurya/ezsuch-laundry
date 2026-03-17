@@ -11,7 +11,7 @@ export default function HomePage() {
   const businessJsonLd = {
     "@context": "https://schema.org",
     "@type": "DryCleaningOrLaundry",
-    name: company.name,
+    name: company.directoryName,
     image: company.heroImage,
     description: company.description,
     telephone: company.phoneIntl,
@@ -19,12 +19,12 @@ export default function HomePage() {
     address: {
       "@type": "PostalAddress",
       streetAddress: company.addressLine1,
-      addressLocality: "Ikeja",
+      addressLocality: "Ijaiye-Ojokoro",
       addressRegion: "Lagos",
       addressCountry: "NG",
     },
     openingHours: "Mo-Sa 08:00-18:00",
-    areaServed: ["Ikeja", "Allen Avenue", "Lagos"],
+    areaServed: ["Ijaiye", "Ijaiye-Ojokoro", "Lagos"],
     sameAs: [company.whatsappHref],
   };
 
@@ -46,4 +46,3 @@ export default function HomePage() {
     </>
   );
 }
-

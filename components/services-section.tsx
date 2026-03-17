@@ -6,6 +6,7 @@ import {
   ShieldCheck,
   Sparkles,
   Waves,
+  WashingMachine,
 } from "lucide-react";
 
 import { SectionHeading } from "@/components/section-heading";
@@ -13,11 +14,12 @@ import { services } from "@/lib/site";
 
 const serviceIcons: LucideIcon[] = [
   Sparkles,
-  Waves,
+  WashingMachine,
   Shirt,
-  Clock3,
+  Waves,
   ShieldCheck,
   BedDouble,
+  Clock3,
 ];
 
 export function ServicesSection() {
@@ -26,8 +28,8 @@ export function ServicesSection() {
       <div className="container-shell">
         <SectionHeading
           eyebrow="Our Services"
-          title="Professional cleaning services for everyday wear and special garments."
-          description="Clean Looks Drycleaners offers reliable in-store laundry and dry cleaning solutions tailored to busy professionals, families, and anyone who wants garments returned fresh, neat, and ready to wear."
+          title="Professional cleaning services for garments, shirts, and household items."
+          description="EZSUCH LAUNDRY offers reliable in-store laundry and dry cleaning solutions tailored to busy professionals, families, and anyone who wants garments returned fresh, neat, and ready to wear."
           align="center"
         />
 
@@ -57,4 +59,3 @@ export function ServicesSection() {
     </section>
   );
 }
-

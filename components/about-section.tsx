@@ -3,7 +3,7 @@ import { Clock3, MapPin, Sparkles } from "lucide-react";
 
 import { CtaButtons } from "@/components/cta-buttons";
 import { SectionHeading } from "@/components/section-heading";
-import { company, galleryImages } from "@/lib/site";
+import { galleryImages } from "@/lib/site";
 
 export function AboutSection() {
   return (
@@ -12,9 +12,9 @@ export function AboutSection() {
         <div className="grid gap-10 lg:grid-cols-[0.95fr_1.05fr] lg:items-center">
           <div className="order-2 lg:order-1">
             <SectionHeading
-              eyebrow="About Clean Looks"
-              title="Family-owned garment care with a professional finish."
-              description={`Clean Looks Drycleaners is a family-owned dry cleaning service in the heart of Ikeja, delivering spotless results since ${company.foundedYear}. We care for your wardrobe like our own, combining approachable neighborhood service with the polished finishing professionals expect.`}
+              eyebrow="About EZSUCH"
+              title="Your trusted local laundry service in Ijaiye-Ojokoro."
+              description="EZSUCH LAUNDRY & DRY CLEANING SERVICES delivers precise cleaning and pressing for all your garments and household items. We focus on dependable care, careful handling, and convenience for people living and working around Ijaiye."
             />
 
             <div className="mt-8 grid gap-4 sm:grid-cols-3">
@@ -33,7 +33,7 @@ export function AboutSection() {
                   Easy to reach
                 </p>
                 <p className="mt-2 text-sm leading-6 text-slate-600">
-                  Conveniently located by Ikeja Medical Centre.
+                  Conveniently located on Ahmed Tijani Street in Ijaiye-Ojokoro.
                 </p>
               </div>
               <div className="rounded-2xl border border-slate-200 bg-slate-50 p-4">
@@ -47,6 +47,13 @@ export function AboutSection() {
               </div>
             </div>
 
+            <p className="mt-8 max-w-2xl text-base leading-8 text-slate-600">
+              From shirts and suits to bedding and household items, we deliver a
+              reliable finish without unnecessary fuss. If you want a local
+              laundry shop that values quality pressing, clear communication, and
+              on-time service, EZSUCH is ready to help.
+            </p>
+
             <div className="mt-8">
               <CtaButtons compact />
             </div>
@@ -57,7 +64,7 @@ export function AboutSection() {
               <div className="relative aspect-[4/5]">
                 <Image
                   src={galleryImages.foldedLaundry}
-                  alt="A dry cleaning professional handling neatly arranged folded garments."
+                  alt="Neatly folded clean laundry arranged on a table."
                   fill
                   className="object-cover"
                   sizes="(max-width: 1024px) 100vw, 25vw"
@@ -68,7 +75,7 @@ export function AboutSection() {
               <div className="relative aspect-[4/5]">
                 <Image
                   src={galleryImages.ironing}
-                  alt="Clean laundry and an ironing station prepared for careful garment finishing."
+                  alt="Freshly cleaned suits hanging neatly after garment care."
                   fill
                   className="object-cover"
                   sizes="(max-width: 1024px) 100vw, 25vw"
@@ -81,4 +88,3 @@ export function AboutSection() {
     </section>
   );
 }
-

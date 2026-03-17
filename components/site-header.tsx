@@ -9,7 +9,7 @@ export function SiteHeader() {
         <div className="flex items-center justify-between gap-4">
           <a href="#home" className="min-w-0">
             <p className="truncate text-sm font-semibold uppercase tracking-[0.3em] text-brand-600">
-              Ikeja, Lagos
+              Ijaiye-Ojokoro, Lagos
             </p>
             <p className="truncate text-lg font-semibold text-slate-950">
               {company.name}
@@ -65,4 +65,3 @@ export function SiteHeader() {
     </header>
   );
 }
-

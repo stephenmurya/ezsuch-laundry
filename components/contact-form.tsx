@@ -6,7 +6,7 @@ export function ContactForm() {
       <input
         type="hidden"
         name="_subject"
-        value="New enquiry from Clean Looks Drycleaners website"
+        value="New inquiry from EZSUCH LAUNDRY website"
       />
       <input type="hidden" name="_captcha" value="false" />
 
@@ -40,7 +40,7 @@ export function ContactForm() {
           type="tel"
           required
           className="w-full rounded-2xl border border-slate-200 bg-white px-4 py-3 text-slate-900 placeholder:text-slate-400 focus:border-brand-400 focus:outline-none"
-          placeholder="0806 594 8318"
+          placeholder="0803 605 5396"
         />
       </div>
 
@@ -49,7 +49,7 @@ export function ContactForm() {
           htmlFor="message"
           className="mb-2 block text-sm font-medium text-slate-900"
         >
-          How can we help?
+          Message
         </label>
         <textarea
           id="message"
@@ -57,7 +57,7 @@ export function ContactForm() {
           rows={5}
           required
           className="w-full rounded-2xl border border-slate-200 bg-white px-4 py-3 text-slate-900 placeholder:text-slate-400 focus:border-brand-400 focus:outline-none"
-          placeholder="Tell us what you want cleaned or when you plan to visit."
+          placeholder="Tell us what you want cleaned or pressed."
         />
       </div>
 
@@ -65,7 +65,7 @@ export function ContactForm() {
         type="submit"
         className="inline-flex w-full items-center justify-center rounded-full bg-brand-500 px-5 py-3.5 text-sm font-semibold text-white shadow-soft hover:bg-brand-600"
       >
-        Send Enquiry
+        Send Inquiry
       </button>
 
       <p className="text-sm leading-6 text-slate-500">
